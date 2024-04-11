@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "997256189665",
+    "project_id": "pasbaradb",
+    "storage_bucket": "pasbaradb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997256189665:android:c32e12b85ebedb8165c9a0",
+        "android_client_info": {
+          "package_name": "lk.calm.pasbaradashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSGAfaMfGAttRoIpqMZS0yZUZzCTEybk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997256189665:android:2cf4b0cbf5b6ddb065c9a0",
+        "android_client_info": {
+          "package_name": "lk.calm.pasbaratheater01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvSGAfaMfGAttRoIpqMZS0yZUZzCTEybk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PasbaraDashboard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="NavigationViewTheme" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

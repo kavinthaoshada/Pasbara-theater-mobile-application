@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankMovieFragment">
+
+
+
+
+
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutCastAndCrew"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_cast_and_crew"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textCastAndCrew"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@null"-->
+<!--                android:hint="Cast and Crew"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textMultiLine|textCapSentences"-->
+<!--                android:lines="5"-->
+<!--                android:maxLines="5"-->
+<!--                android:paddingStart="10dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:textColor="@color/primary_text"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="@string/cast_crew"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutCastAndCrew"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutCastAndCrew" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutDescription"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_description"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textDescription"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@null"-->
+<!--                android:hint="Description"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textMultiLine|textCapSentences"-->
+<!--                android:lines="5"-->
+<!--                android:maxLines="5"-->
+<!--                android:paddingStart="10dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:textColor="@color/primary_text"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="@string/description"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutDescription"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutDescription" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutTrailer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_movie"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textTrailer"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:background="@null"-->
+<!--                android:hint="@string/url_of_movie_trailer"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="text"-->
+<!--                android:paddingStart="10dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:textColor="@color/primary_text"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="Trailer"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutTrailer"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutTrailer" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutShowtime"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_release_date"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/dateAndTimePickerButton"-->
+<!--                style="?android:spinnerStyle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:paddingStart="10dp"-->
+<!--                android:text="Pick Date And Time"-->
+<!--                android:textColor="@color/primary_text"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="Showtime"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutShowtime"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutShowtime" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutShowtimeList"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_release_date"-->
+<!--                app:tint="@color/secondary_text" />-->
+
+<!--            <ScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:overScrollMode="never">-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/dateTimeList"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                </LinearLayout>-->
+<!--            </ScrollView>-->
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="Showtime List"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutShowtimeList"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutShowtimeList" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutScreen"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_screen"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinnerScreen"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:entries="@array/screen_dropdown_items" />-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="Screen"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutScreen"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutScreen" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginEnd="10dp">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/layoutPricing"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:background="@drawable/background_input"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="22dp"-->
+<!--                android:layout_height="22dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/ic_movie"-->
+<!--                app:tint="@color/dashboard_item_1" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/textPricing"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:background="@null"-->
+<!--                android:hint="@string/pricing_per_seat"-->
+<!--                android:imeOptions="actionNext"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="number"-->
+<!--                android:paddingStart="10dp"-->
+<!--                android:paddingEnd="10dp"-->
+<!--                android:textColor="@color/primary_text"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="41dp"-->
+<!--            android:background="@color/white"-->
+<!--            android:paddingStart="6dp"-->
+<!--            android:paddingEnd="6dp"-->
+<!--            android:text="Pricing"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/secondary_text"-->
+<!--            android:textStyle="bold"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/layoutPricing"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@id/layoutPricing" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+</FrameLayout>
