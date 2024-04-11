@@ -11,25 +11,31 @@ its digital presence, Pasbara Theater is taking a significant step forward in it
 
 
 Product Scope
+
 1.	User Registration and Authentication:
+
 Allow users to create accounts using their email.
 
 
 3.	Search and Browse:
+
 Enable users to search for movies.
+
 Provide filters and sorting options for easy browsing.
 
 
 5.	Movie Listings:
+
 Display detailed information about events, including dates, times, prices, and available seats.
 
 
 7.	Seat Selection:
+
 Allow users to choose specific seats or sections.
 Provide interactive seating maps for venues.
 
 
-8.	Booking and Payment:
+9.	Booking and Payment:
 Implement a payment gateway to facilitate transactions.
 
 
